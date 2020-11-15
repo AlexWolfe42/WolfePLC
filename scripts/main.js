@@ -2,11 +2,9 @@ $(document).ready(function() {
 	$( '.dropdown' ).hover(
 		function() {
 			$(this).children('.services-sub').slideDown(200);
-			$(this).children('.media-sub').slideDown(200);
 		},
 		function() {
 			$(this).children('.services-sub').slideUp(200);
-			$(this).children('.media-sub').slideUp(200);
 		}
 	);
 	
