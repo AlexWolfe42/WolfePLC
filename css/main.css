@@ -1,0 +1,360 @@
+@font-face {
+	font-family: 'Archivo';
+	src: url('../fonts/Archivo-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Assistant';
+	src: url('../fonts/Assistant-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Assistant-Bold';
+	src: url('../fonts/Assistant-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Black.ttf') format('truetype');
+}
+
+body {
+	background-color: #002a00;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: Archivo;
+	color: white;
+}
+
+header {
+	padding: 1.5em 0;
+	height: 8em;
+}
+
+.head {
+	padding: 1em 1em;
+}
+
+#logo {
+	padding: 0 0 0 1em;
+	float: left;
+	height: 8em;
+}
+
+.contact {
+	font-size: 1.25em;
+	float: right;
+	padding: 1em 1em;
+	height: 50%;
+	overflow: hidden;
+	display: inline;
+}
+
+.contact div {
+	text-align: left;
+}
+
+/* Navigation Bar */
+nav {
+	background-color: rgba(17, 29, 115, 0.75);
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: 3.75em;
+	display: table;
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	float: left;
+	position: relative;
+	font-size: 1.5em;
+	font-family: Roboto, Helvetica, Sans-Serif;
+}
+
+nav li ul {
+	background-color: rgba(17, 29, 115, 0.75);
+	position: absolute;
+	width: 9.5em;
+	z-index: 1;
+}
+
+nav li li {
+	position: relative;
+	margin: 0;
+	display: block;
+	text-align: left;
+}
+
+nav a {
+	line-height: 2.5em;
+	padding: 0 0.5625em;
+	margin: 0 1.125em;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+nav a:hover {
+	color: #2a992a;
+}
+
+a.active {
+	color: #2a992a;
+}
+
+nav li li a {
+	border-bottom: solid .125em rgba(42, 142, 42, 0.75);
+	margin: 0 0.625em;
+	padding: 0;
+	font-size: 0.5em;
+}
+
+nav li li:last-child a {
+	border-bottom: none;
+}
+
+nav li.dropdown > a {
+	background-image: url('../images/arrow-down.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 0 0.8125em;
+}
+
+ul.services-sub {
+	display: none;
+}
+
+ul.media-sub {
+	display: none;
+	width: 3em;
+	left: 2em;
+}
+
+/* Image Scroller */
+#scroller {
+	position: relative;
+	width: 100%;
+	height: 31.25em;
+	margin: 0 auto;
+	padding: 0;
+	z-index: -1;
+	top: -3em;
+}
+
+#scroller .innerScrollArea {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+#scroller ul {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#scroller li {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	position: absolute;
+	height: 31.25em;
+}
+
+/* About */
+#about {
+	font-family: Assistant;
+	font-weight: 400;
+	font-size: 1em;
+	color: #fff;
+	padding: 5em 1.5em;
+}
+
+#about-header p {
+	font-family: Assistant-Bold;
+	font-size: 3.5em;
+	text-align: center;
+	font-weight: bold;
+	padding: 0.5em 0;
+	margin: 0;
+	border-bottom: 0.0125em solid white;
+}
+
+.about-col {
+	width: 50%;
+	padding: 0 1em;
+}
+
+#about_image {
+	width: 29.0625em;
+	height: 43.4375em;
+}
+
+/* Contact */
+#contact {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding: 5em 0;
+}
+
+#contact-form {
+/*	background-image: url(../images/ben-koorengevel-223854.jpg); */
+	background-size: auto 100%;
+	position: relative;
+	top: 1em;
+	left: 4.2em;
+	width: 45em;
+	padding: 5em;
+} 
+
+#contact-form div {
+	font-size: 1em;
+	padding: 0.5em 0 0.25em 0;
+}
+
+#first-name {
+	width: 30%;
+	font-size: 1em;
+	box-shadow:inset 0 0.0625em 0.125em #DDD, 0 0.0625em 0 #FFF;
+    -webkit-box-shadow:inset 0 0.0625em 0.125em #DDD, 0 0.0625em 0 #FFF;
+    -moz-box-shadow:inset 0 0.0625em 0.125em #DDD, 0 0.0625em 0 #FFF;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0 0 0.3125em;
+    padding:0.625em;
+}
+
+#last-name {
+	width: 40%;
+	margin: 0 0 0 0.6em;
+	font-size: 1em;
+	box-shadow: inset 0 0.0625em 0.125em #DDD, 0 0.0625em 0 #FFF;
+    -webkit-box-shadow: inset 0 0.0625em 0.125em #DDD, 0 0.0625em 0 #FFF;
+    -moz-box-shadow: inset 0 0.0625em 0.125em #DDD, 0 0.0625em 0 #FFF;
+    border: 0.0625em solid #CCC;
+    background:#FFF;
+    padding: 0.625em;
+}
+
+#contact-form input[type="email"],
+#contact-form textarea {
+	width:75%;
+	font-size: 1em;
+    box-shadow:inset 0 0.0625em 0.125em #DDD, 0 0.0625em 0 #FFF;
+    -webkit-box-shadow: inset 0 0.0625em 0.125em #DDD, 0 0.0625em 0 #FFF;
+    -moz-box-shadow: inset 0 0.0625em 0.125em #DDD, 0 0.0625em 0 #FFF;
+    border: 0.0625em solid #CCC;
+    background: #FFF;
+    margin: 0 0 0.3125em;
+    padding: 0.625em;
+}
+
+#contact-form button[type="submit"] {
+    cursor: pointer;
+    width: 10em;
+    border: none;
+    background: #004200;
+    background-image: linear-gradient(bottom, #000 0%, #004200 50%);
+    background-image: -moz-linear-gradient(bottom, #000 0%, #004200 50%);
+    background-image: -webkit-linear-gradient(bottom, #000 0%, #004200 50%);
+    color: #FFF;
+    margin: 0 0 0.3125em;
+    padding: 0.625em;
+    border-radius: 0.15625em;
+}
+
+#contact_confirm {
+	
+}
+
+/* IP Law */
+.services {
+	margin: 5em 3em;
+	padding: 2em 0 0 0;
+}
+
+.services-header {
+	 text-align: center;
+}
+
+.services-content {
+	padding: 0 2em 2em 2em;
+	max-width: 60em;
+	line-height: 1.8em;
+	margin: auto;
+}
+
+.services-end {
+	font-size: 1.25em;
+}
+
+/* Footer */
+footer {
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 1em Arial;
+	padding: 2.8125em 3.125em;
+	position: relative;
+	bottom: 2em;
+	background-color: rgb(17, 29, 115);
+}
+
+footer div {
+	position: absolute;
+	bottom: 0.75em;
+	right: 4em;
+}
+
+.footer-right {
+	float: right;
+	width: 12em;
+}
+
+.footer-right a {
+	display: inline;
+	width: 2.1875em;
+	height: 2.1875em;
+	border-radius: 0.125em;
+
+	font-size: 3.5em;
+	color: #ffffff;
+	text-align: center;
+	padding: 0 0.075em;
+}
+
+body {
+	font-size: 8px;
+}
+
+@media only screen and ( min-width: 768px )
+{
+	body {
+		font-size: 12px;
+	}
+}
+
+@media only screen and ( min-width: 1024px )
+{
+	body {
+		font-size: 16px;
+	}
+}
+
+@media only screen and ( min-width: 1440px )
+{
+	body {
+		font-size: 20px;
+	}
+}

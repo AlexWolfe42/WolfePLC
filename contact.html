@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Wolfe PLC | Contact</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="head">
+				<a href="index.html"><img id="logo" src="images/logo.png"></a>
+				<div class="contact">
+					<div>
+						Wolfe Legal Services, PLC<br />
+						Nashville, TN<br />
+						(615)594.7487<br />
+						<a href="mailto:steven@wolfeplc.com">steven@wolfeplc.com</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Navigation Menu -->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a class="active">Contact</a></li>
+				<li class="dropdown">
+					<a href="#">Services</a>
+					<ul class="services-sub" style="display: none;">
+						<li><a href="iplaw.html">Intellectual Property Law</a></li>
+						<li><a href="entlaw.html">Entertainment Law</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#">Media</a>
+					<ul class="media-sub">
+						<li><a href="video.html">Video</a></li>
+						<li><a href="blog.html">Blog</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<!-- Contact Form -->
+		<div id="contact">
+			<form id="contact-form" action="contact.php" method="get">
+				<h1>Leave a Message</h1>
+				<h4>Fill out and submit the form below and I'll get back to you as soon as I can.</h4>
+				<div>
+					<label>
+						<div>Name: (required)</div>
+						<input id="first-name" placeholder="First Name" type="text" name="first" tabindex="1" required autofocus>
+						<input id="last-name" placeholder="Last Name" type="text" name="last" tabindex="2" required>
+					</label>
+				</div>
+				<div>
+					<label>
+						<div>Email: (required)</div>
+						<input placeholder="Email Address" type="email" name="email" tabindex="3" required>
+					</label>
+				</div>
+				<div>
+					<label>
+						<div> Message: (required)</div>
+						<textarea name="message" rows="7.5" placeholder="Please leave a message and I'll get back to you as soon as possible." tabindex="4" required></textarea>
+					</label>
+				</div>
+				<div>
+					<button name="submit" type="submit" id="contact-submit">Leave Message</button>
+				</div>
+			</form>
+		</div>
+	
+		<!-- Footer -->
+		<footer>
+			<div class="footer-right">
+				<a href="https://www.facebook.com/WolfeLegalServices/"><i class="fa fa-facebook-square"></i></a>
+				<a href="#"><i class="fa fa-twitter-square"></i></a>
+				<a href="https://www.linkedin.com/company/wolfe-legals-services-plc"><i class="fa fa-linkedin-square"></i></a>
+			</div>
+		</footer>
+  
+	</body>
+</html>
