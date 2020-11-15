@@ -71,7 +71,6 @@ nav ul {
 }
 
 nav ul li {
-	display: inline-block;
 	float: left;
 	position: relative;
 	font-size: 1.5em;
@@ -271,10 +270,6 @@ ul.media-sub {
     margin: 0 0 0.3125em;
     padding: 0.625em;
     border-radius: 0.15625em;
-}
-
-#contact_confirm {
-	
 }
 
 /* IP Law */
