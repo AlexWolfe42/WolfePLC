@@ -209,7 +209,6 @@ ul.media-sub {
 }
 
 #contact-form {
-/*	background-image: url(../images/ben-koorengevel-223854.jpg); */
 	background-size: auto 100%;
 	position: relative;
 	top: 1em;
@@ -264,10 +263,10 @@ ul.media-sub {
     cursor: pointer;
     width: 10em;
     border: none;
-    background: #004200;
-    background-image: linear-gradient(bottom, #000 0%, #004200 50%);
-    background-image: -moz-linear-gradient(bottom, #000 0%, #004200 50%);
-    background-image: -webkit-linear-gradient(bottom, #000 0%, #004200 50%);
+    background: rgb(17, 29, 115);
+    background-image: linear-gradient(bottom, #000 0%,rgb(17, 29, 115) 50%);
+    background-image: -moz-linear-gradient(bottom, #000 0%, rgb(17, 29, 115) 50%);
+    background-image: -webkit-linear-gradient(bottom, #000 0%, rgb(17, 29, 115) 50%);
     color: #FFF;
     margin: 0 0 0.3125em;
     padding: 0.625em;
